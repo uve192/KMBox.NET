@@ -103,7 +103,7 @@ public class KmBoxClient
     /// <param name="x2">X2</param>
     /// <param name="y2">Y2</param>
     /// <returns><see langword="true" /> if successful.</returns>
-    public async Task<bool> MouseMoveBeizer(int x, int y, uint ms, int x1, int y1, int x2, int y2)
+    public async Task<bool> MouseMoveBezier(int x, int y, uint ms, int x1, int y1, int x2, int y2)
     {
         var request = NextCmdHead(KmCommand.CmdBeizerMove);
         request.rand = ms;

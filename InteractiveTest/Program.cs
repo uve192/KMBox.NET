@@ -68,7 +68,7 @@ try
     // Moving mouse
     await client.MouseMoveSimple(100, 100);
     await client.MouseMoveAuto(200, 200, 1000);
-    await client.MouseMoveBeizer(300, 300, 2000, 400, 400, 500, 500);
+    await client.MouseMoveBezier(300, 300, 2000, 400, 400, 500, 500);
 
     Console.WriteLine("Scrolling up and down..");
     
